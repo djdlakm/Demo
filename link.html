@@ -1,0 +1,41 @@
+<!doctype html>
+<!--Thư mục demo: Web root 
+    a.html
+    b.html đường dẫn tương đối
+lỗi đầu 4xx lỗi local
+lỗi đầu 5xx lỗi server
+Protocol: giao thức
+client --request-- web server --response --client
+client:front end
+web server: back end
+request/response: http giao thức
+https: s là security
+DNS: domain name system: chuyển tên miền thành địa chỉ IP
+
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+    <body>
+        <!--Hyper link-->
+        <!--
+            <a href="URL"> host post </a>
+        -->
+        <!-- Internet:  include http or https / không có thì là gọi nội bộ-->
+
+        <p><a href="https://www.google.com">Visit Google</a></p>
+        <p><a href="demo.html">Open demo</a></p>
+        <!--Phải cùng cấp (đường dẫn tương đối)-->
+        <p><a href="demo.html#YeuCau">Open demo - yeu cau</a></p>
+        <!--Tạo name ở file demo, #YeuCau để mở đúng đến đoạn đó-->
+        <p><a href="Thuvien/java.html">Open Java</a></p>
+        <!-- không cùng cấp phải chỉ đường dẫn (phải có thư mục Thuvien/)  -->
+        <!-- chỉ gọi internet mới được dùng đường dẫn tuyệt đối / gọi file chỉ được dùng đường dẫn tương đối -->
+        <p><a href="mailto:27a4043281@hvnh.edu.vn">Mail to me </a></p>
+        
+        
+    </body>
+</html>

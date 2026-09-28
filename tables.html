@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">  <!-- đường viền -->
+        <caption>Bảng điểm</caption> <!-- tiêu đề bảng -->
+        <tr> <!-- tr = Table Row, tr đầu tiên sẽ là dòng đầu tiên --> 
+            <th rowSpan="2">STT</th>  <!-- tiêu đề cột: th = Table Heading -->
+            <th rowSpan="2">Họ tên</th> <!--rowspan để gộp các hàng-->
+            <th colSpan="3">Điểm</th> <!--colspan để gộp các cột-->
+            <th rowspan="2">Ghi chú</th>
+        </tr>
+        <tr> <!-- Phải tạo tr nữa để chứ hàng toán văn anh-->
+            <th>Toán</th>
+            <th>Văn</th>
+            <th>Anh</th>
+            
+        </tr>
+        
+        <tr> <!-- tr thứ 2` là dòng thứ 2-->
+            <td>1</td> <!-- dữ liệu cột: td = Table Data -->
+            <td>John Doe</td>
+            <td>8.5</td>
+            <td>7.0</td>
+            <td>8.0</td>
+            <td></td> 
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>9.0</td>
+            <td>8.5</td>
+            <td>9.5</td>
+            <td></td>
+                    
+        </tr>
+    </table>
+</body>
+</html>

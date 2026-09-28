@@ -1,0 +1,15 @@
+h1 {
+  text-align: left;
+  color: rgb(228, 36, 109);
+  font-size: smaller;
+  font-style: italic;
+  text-decoration: underline;
+}
+h2 {
+  color: #e00fc1;
+  font-size: 24px;
+}
+p{
+    color: #1e0dd8;
+    text-align: justify;
+}
